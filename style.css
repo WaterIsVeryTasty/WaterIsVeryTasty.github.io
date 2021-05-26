@@ -17,7 +17,7 @@ body {
   padding-bottom: 60px; /* Must match footer height; make up for footer being removed from the document flow */
   min-height: 100%; /* Force body to be at least the size of the screen */
   background: grey; /* Backup color */
-  background: url(http://i.stack.imgur.com/OVOg3.jpg) no-repeat center center fixed;
+  background: url(https://i.postimg.cc/hGd3p4Mj/images.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -28,7 +28,7 @@ body {
 
 
 /* Header */
-.site-header {
+h1 {
   position: fixed; /* Helps us position at the top; header no longer takes up space in the flow of the document */
   top: 0px;
   width: 100%;
