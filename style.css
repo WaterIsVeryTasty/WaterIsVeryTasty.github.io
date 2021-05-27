@@ -29,6 +29,7 @@ body {
 
 /* Header */
 h1 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   position: fixed; /* Helps us position at the top; header no longer takes up space in the flow of the document */
   top: 0px;
   width: 100%;
