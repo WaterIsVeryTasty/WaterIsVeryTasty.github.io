@@ -31,28 +31,20 @@ body {
 .headline {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   position: fixed; /* Helps us position at the top; header no longer takes up space in the flow of the document */
-  top: 0px;
-  width: 100%;
-  height: 60px;
-  padding: 15px;
   background: rgb(44, 44, 44); /* Backup color */
   background: rgba(44, 44, 44, 0.5);
 }
 
 
-/* Main Content */
-.main-content {
-  padding: 15px;
-}
 
 
-/* Footer */
+/* Footer 
 .site-footer {
-  position: absolute; /* Helps us position at the bottom; footer no longer takes up space in the flow of the document */
+  position: absolute; /* Helps us position at the bottom; footer no longer takes up space in the flow of the document 
   bottom: 0px;
   width: 100%;
   height: 60px;
   padding: 15px;
-  background: rgb(44, 44, 44); /* Backup color */
+  background: rgb(44, 44, 44); /* Backup color 
   background: rgba(44, 44, 44, 0.5);
-}
+} */
