@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+}
+
+head {
+  background: white;
+}
+body {
+  position: relative; /* Assist "position: absolute" below */
+  /* padding-top: 60px; /* Must match header height; make up for header being removed from the document flow 
+  padding-bottom: 60px; /* Must match footer height; make up for footer being removed from the document flow */
+  min-height: 100%; /* Force body to be at least the size of the screen */
+  /* background: white; /* Backup color */
+  background: url(https://i.postimg.cc/fbPy7vLm/how-to-make-a-giant-grilled-cheese-4784131-hero-01-9b3b6c52640f4f50a910279231658ede.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+  
+}
+
+hr {
+  color: black;
+  background: black;
+  border-style: none;
+  border-width: 2px;
+  margin: 1px;
+  overflow: shown;
+}
+
+.headline {
+  margin: 8px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+
+
+/*
+.site-footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  padding: 15px;
+  background: rgb(44, 44, 44);
+  background: rgba(44, 44, 44, 0.5);
+} */
