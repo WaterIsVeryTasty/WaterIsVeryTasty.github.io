@@ -11,15 +11,39 @@ body {
   padding-bottom: 60px; /* Must match footer height; make up for footer being removed from the document flow */
   min-height: 100%; /* Force body to be at least the size of the screen */
   /* background: white; /* Backup color */
-  background: url(https://i.postimg.cc/fbPy7vLm/how-to-make-a-giant-grilled-cheese-4784131-hero-01-9b3b6c52640f4f50a910279231658ede.jpg) no-repeat center center fixed;
+  /*background-image: url("background.png"); */
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   font-family: sans-serif;
-  
+  background-color: rgb(87, 84, 84);
+}
+.circle-img {
+  border-radius: 50%;
+  margin: 16px;
+  height: 100px;
+  width: 100px;
+  display:inline-block;
+} 
+.demo-wrap {
+  overflow: hidden;
+  position: relative;
 }
 
+.demo-bg {
+  opacity: 0.4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.demo-content {
+  position: relative;
+}
 hr {
   color: black;
   background: black;
@@ -30,8 +54,10 @@ hr {
 }
 
 .headline {
-  margin: 8px;
+  margin: 16px;
   color: white;
+  display: inline-block;
+  margin-right: 30px;
 }
 
 p {
