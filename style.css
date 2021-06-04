@@ -22,7 +22,7 @@ body {
 }
 .circle-img {
   border-radius: 50%;
-  margin: 16px;
+  margin: 24px;
   height: 100px;
   width: 100px;
   display:inline-block;
@@ -52,12 +52,15 @@ hr {
   margin: 1px;
   overflow: shown;
 }
+/* <p class="headline" style=" font-size: 3.5em; font-family: helvetica; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Water Is Tasty</p> */
 
 .headline {
-  margin: 16px;
+  margin: 24px;
   color: white;
   display: inline-block;
-  margin-right: 30px;
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 p {
